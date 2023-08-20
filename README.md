@@ -4,6 +4,7 @@
   ```bash
   # with mkdir
   mkdir -p /path/to && echo "some data" > $_/file.txt
+  
   # without mkdir
   echo "some data" | install -D /dev/stdin /path/to/file.txt
   ```
